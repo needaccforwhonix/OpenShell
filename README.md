@@ -16,6 +16,8 @@ uv pip install [todo, publish package]
 navigator sandbox create -- claude  # or opencode or codex
 ```
 
+The sandbox container includes a minimal networking toolset by default: `ping`, `dig`, `nslookup`, `nc`, `traceroute`, and `netstat`.
+
 ## Developing
 
 See `CONTRIBUTING.md` for more information about developing and contributing to Navigator.
